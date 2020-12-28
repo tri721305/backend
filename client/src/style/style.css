@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.user-form {
+  position: relative;
+  max-width: 100%;
+  padding: 8rem 3rem 0 3rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.user-form-title-container {
+  position: relative;
+}
+
+.user-form-title {
+  font-size: 2rem;
+  color: #4c4c4c;
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-form-button {
+  width: 100%;
+}
+
+.app-bar-search-input {
+  position: relative;
+}
+
+.app-bar-search-input-icon {
+  position: absolute;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media screen and (min-device-width: 577px) and (max-device-width: 768px) {
+  .app-bar-menu-button-desktop {
+    display: none !important;
+  }
+
+  .app-bar-menu-button-mobile {
+    display: flex !important;
+  }
+
+  .app-bar-search-input-mobile {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 576px) {
+  .app-bar-title {
+    display: none !important;
+  }
+
+  .app-bar-menu-button-desktop {
+    display: none !important;
+  }
+
+  .app-bar-menu-button-mobile {
+    display: flex !important;
+  }
+
+  .app-bar-search-input-mobile {
+    margin-left: 0;
+    width: 100%;
+  }
+}

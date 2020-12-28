@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const http = require('http');
+const app = require('../server');
+
+const server = http.createServer(app);
+
+server.listen(3000, () => {
+  const port = server.address().port;
+  console.log('🚀🚀 This express server is listening on port:' + port);
+});
